@@ -3,3 +3,17 @@
     top: 50%;
     left: 50%;
 }
+
+#formulario {
+    background-color: yellow;
+    -webkit-animation-duration: 4s; 
+    animation-name: transicao-cor;
+    animation-duration: 4s;
+  }
+
+@keyframes transicao-cor {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+
